@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Model weights (too large for git; publish via Releases / Hugging Face)
+models/*
+!models/README.md
+*.model
+*.pt
+*.bin
+*.safetensors
+
+# Data: scraped dark-web content must never be committed
+data/
+*.csv
+*.zip
+*.tar
+examples/
+Search-*.json
+Search-*.csv
+visited.json
+visited.txt
+res.txt
+
+# Original raw material kept locally only
+_original/

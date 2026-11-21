@@ -1,0 +1,30 @@
+# Crawling / Tor
+pycurl
+stem
+fake-useragent
+beautifulsoup4
+validators
+chardet
+
+# Storage
+pymongo
+pandas
+
+# NLP / classification
+torch
+transformers
+spacy
+nltk
+rake-nltk
+numpy
+
+# Vendored reStalker (crypto wallets, IOC extraction)
+base58
+based58
+bech32ref
+web3
+monero
+python-magic
+PyPDF2
+olefile
+pyexifinfo
